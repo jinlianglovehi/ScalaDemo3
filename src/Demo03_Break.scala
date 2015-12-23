@@ -3,6 +3,9 @@ import scala.util.control.Breaks
 /**
   * Created by jinliang on 15/12/23.
   * 说明
+  *  scala 不提倡 break 的打断程序
+  *  需要自己进行创建breaks 进行打断程序.
+  *
   */
 object Demo03_Break {
   val loop = new Breaks;
